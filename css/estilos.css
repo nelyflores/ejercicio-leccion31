@@ -97,18 +97,23 @@ justify-content:space-between;
 footer .contenedorf{
 display: flex;
 flex-wrap: wrap;
-justify-content: center;
-padding-bottom: 25px;
+justify-content: space-between;
+padding-top: 25px;
 
 }
 .copy{
-font-size: 20px;
+font-size: 18px;
+color: white;
+text-align: center;
+width: 40%;
+
 
 }
 .sociales{
-width: 80%;
+width: 50%;
 text-align: center;
 font-size: 28px;
+
 }
 .sociales a{
 color: #333;
@@ -173,6 +178,9 @@ text-decoration: none;
     background: #cfe6ef;
     background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
     background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
+}
+.formulario{
+    text-align: center;
 }
 
 
